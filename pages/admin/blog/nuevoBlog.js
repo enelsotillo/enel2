@@ -10,7 +10,6 @@ function Nuevoblog(){
         axios.post("http://localhost:8080/blog/", {
             "titulo": tituloBlog.current.value,
             "contenido": contenidoBlog.current.value,
-            "id": 1235,
             "autor": "Enel"
         }, {
             headers:{
