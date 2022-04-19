@@ -22,13 +22,13 @@ function Nuevoblog(){
         <div>
             <div>
                 <h1> Nuevo Blog</h1>
-                <form action="" method="post">
-                    <label htmlFor="tituloBlog">Titulo</label>
-                    <input ref={tituloBlog} id="tituloBlog" type="text"></input>    
-                    <label htmlFor="contenidoBlog">Contenido</label>
-                    <textarea ref={contenidoBlog} id="contenidoBlog" name="contenidoBlog" rows="4" cols="50"></textarea>
+                <form action="" method="post" className="formulario">
+                    <label htmlFor="tituloBlog">Titulo -- >:</label>
+                    <input ref={tituloBlog} id="tituloBlog" type="text"></input><br/>    
+                    <label htmlFor="contenidoBlog">Contenido:</label>
+                    <textarea ref={contenidoBlog} id="contenidoBlog" name="contenidoBlog" rows="4" cols="50"></textarea><br/>
                     <button onClick={enviarDatos}>Enviar</button>
-                </form> 
+                </form>
             </div>
         </div>    
     )

@@ -1,3 +1,4 @@
+
 .MiCabezera p{
     font-size: 18px;
     border: 2px solid #f7f4f4; 
@@ -20,3 +21,7 @@
 .menu ul li a{
        color: #f7f4f4;
 } 
+.Java{
+    width: 500%;
+
+}
