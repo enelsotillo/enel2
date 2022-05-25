@@ -1,5 +1,6 @@
 import axios from "axios";
 import {useRef} from "react"
+import style from "./nuevoBlog.module.css"
 function Nuevoblog(){
     const tituloBlog=useRef()
     const contenidoBlog=useRef()
@@ -20,10 +21,10 @@ function Nuevoblog(){
     }
     return(
         <div>
-            <div>
+            <div className={[style.contenedorformularioBlog]}>
                 <h1> Nuevo Blog</h1>
                 <form action="" method="post" className="formulario">
-                    <label htmlFor="tituloBlog">Titulo -- >:</label>
+                    <label htmlFor="tituloBlog">Titulo -- >):</label>
                     <input ref={tituloBlog} id="tituloBlog" type="text"></input><br/>    
                     <label htmlFor="contenidoBlog">Contenido:</label>
                     <textarea ref={contenidoBlog} id="contenidoBlog" name="contenidoBlog" rows="4" cols="50"></textarea><br/>

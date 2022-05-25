@@ -1,0 +1,23 @@
+.contenidoGeneralFormularioBlog{
+    padding: 0px;
+    margin: 0px;
+    background-color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.contenedorformularioBlog{
+    width: 90%;
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+    border: solid black 2px;
+    background-color: rgb(189, 187, 187);
+    overflow: hidden; /*para que salga del borde*/
+    box-sizing: border-box;
+    
+}
+.formulario{
+
+    margin-left: 50%;
+    transform: translateY(-50);
+}
