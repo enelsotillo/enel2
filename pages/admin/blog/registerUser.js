@@ -8,7 +8,9 @@ function RegisterUser(){
     const nombreUser=useRef()
     const apellidoUser=useRef()
     const correoUser=useRef()
+    const form=useRef()
     function enviarRegister(event){
+
         console.log(usuarioUser.current.value)
         console.log(nombreUser.current.value)
         console.log(apellidoUser.current.value)
@@ -25,12 +27,18 @@ function RegisterUser(){
                 "Accept": "*/*",
             }
         })
+        //miRegister.reset()
+        form.current.reset()
     }
+    /*function  limpiarFormulario(){
+        document.getElementById("miRegister").reset()
+    }*/
+     
     return(
             <div className={[style.contenedorRegistrarUsuario]}>
                         <h3 className={[style.titulo_registrar]}>Registrar Usuario</h3>
                             <section className={[style.formulario_registrar]}>
-                                <form action="" method="" className={[style.register]}>
+                                <form ref={form} action="" method="" className={[style.register]} id="miRegister">
                                     <label>Usuario: </label>
                                     <input ref={usuarioUser}type="text" name="ingreseIsuario" className={[style.caja_texto]} placeholder="usuario o correo"></input>
                                     <p>Nombre: </p>
@@ -49,5 +57,4 @@ function RegisterUser(){
                 </div>
     )
 }
-
 export default RegisterUser;

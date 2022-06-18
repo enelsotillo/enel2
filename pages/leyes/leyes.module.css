@@ -1,0 +1,10 @@
+.trabajo_contenedor{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns:  25% 25% 25% 25%;
+    overflow: hidden;
+    margin-left: 6%;
+    width: 90%;
+    transform: translateY(-45);
+}

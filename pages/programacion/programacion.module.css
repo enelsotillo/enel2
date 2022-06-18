@@ -1,0 +1,7 @@
+.programacion_contenedor_principal{
+    margin: 0%;
+    padding: 0%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    overflow: hidden;
+}

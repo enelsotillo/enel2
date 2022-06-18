@@ -1,0 +1,18 @@
+.contenedor_general_login{
+    width: 25%;
+    height: 25%;
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: 2%;
+    text-align: center;
+    overflow: hidden;
+}
+/*centrar contenedor*/
+.contenedor_general_login{
+    margin-top: 2%;
+    margin-left: 35%;
+    transform: translateY(-30);
+}
+.login_input{
+    font-size: 30px;
+}
