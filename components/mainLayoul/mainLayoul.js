@@ -6,7 +6,7 @@ function MainLayoul(props) {
   return (
     <div>
       <section className={style.principal}>
-        <figure >
+        <figure className={style.logo_texto}>
           <img
             src={"/images/logopapablock.png"}
             alt="logo"
@@ -19,28 +19,25 @@ function MainLayoul(props) {
           </figcaption>
         </figure>
         <header>
-          <p>
-            <h3>
-            {" "}
+            <h2 className={style.titulo_principal_encabezado}>
             Información variada, programación, leyes y noticias
             para la cumunidad Venezolana.
-            </h3>
-          </p>
+            </h2>
         </header>
-        <aside className={[style.aside]}>
-          <div class={[style.button_inicia_sesion]}>
+        <aside className={style.aside}>
+          <div className={style.button_inicia_sesion}>
             <a className="boton_init_sesion" href="admin/blog/login">
               Log in
             </a>
           </div><br/>
-          <div class={[style.button_register_user]}>
+          <div className={style.button_register_user}>
             <a className="register_user" href="admin/blog/registerUser">
               Register
             </a>
           </div><br/>
         </aside>
       </section>
-      <nav className={[style.menu]}>
+      <nav className={style.menu}>
         <ul>
           <li>
             <Link href="/">
@@ -85,8 +82,29 @@ function MainLayoul(props) {
           </li>
         </ul>
       </nav>
+      <div className="container-barra-social">
+        <div className="icon-social">
+          <header>
+          <link href="https://file.myfontastic.com/DaqmoohyDSTZWKFDh6L4Go/icons.css" rel="stylesheet"/>
+          </header>
+          <div className={style.containetBar}> 
+            <ul>
+              <li>
+                <div><a href="" className="icon-share"></a></div>
+                <div className={style.iconfacebook}><a href="" className="icon-facebook"></a></div>
+                <div className={style.iconinstagram}><a href="" className="icon-instagram"></a></div>
+                <div className={style.iconwhatsapp}><a href="" className="icon-whatsapp"></a></div>
+                <div className={style.iconyoutube}><a href="" className="icon-youtube"></a></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
       {props.children}
+      <footer className={style.columna}>
+        Todos los derechos revervado $copy NDF1210B-2022 & 2025
+        <p dateTime="10/02/2022">publicación 10/02/2022</p>
+      </footer>
     </div>
-  );
-}
+  );}
 export default MainLayoul;

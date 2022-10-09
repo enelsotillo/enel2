@@ -10,6 +10,7 @@
     background: #0e0d01; 
     padding: 5px 50px;
     display: block;
+    position: relative;
 } 
 .menu li {   
     display: inline-block; 
@@ -72,25 +73,102 @@
     background-color: #ffffff
 }
 .principal {
+    /*background-color: #1883ba;*/
     margin: 0;
     padding: 0;
 display: grid;
-grid-template-columns: 33% 33% 33%;
-column-gap: normal;
+grid-template-columns: 25% 25% 25%;
+position: relative;
 /*border: solid black 2px;*/
 width: 100%;
 height: 60%;
+text-align: center;
 }
-.principal article p{
-    margin: 0%;
-    padding: 0%;
-    padding-top: 7%;
-    text-align: justify;
-}
+
 .aside{
-    margin: 0;
+    margin: 5%;
+    margin-left: 50%;
     padding: 0px;
     display: flow-root;
-    height: 50%;
+    height: -50%;
+    left: 50%;
     align-items: center;
+    width: 100%;
+   /* border: 2px solid salmon;*/
+}
+/*menu fijo*/
+
+.menu{
+    background: rgb(22, 21, 21);
+    height: 60px;
+    z-index: 100;
+    margin: 0 auto;
+    border-bottom: 1px solid #dadada;
+    width: 100%;
+    position: sticky;
+    top: 1px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+/*bar de redes sociales*/
+
+.containetBar{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.containetBar{
+    position: fixed;
+    right: 5px;
+    top: 25%;
+    /*background-color: rgb(170, 175, 175);*/
+}
+.containetBar ul a{
+    width: 25%;
+    max-width: 55%;
+    display: block;
+    padding: 15px;
+    position: relative;
+    transition: all 500ms ease;
+    text-decoration: none;
+}
+.containetBar ul a:hover{
+    background-color: rgb(44, 44, 227);
+}
+.containetBar ul li{
+    font-size: 18px;
+    list-style: none;
+    
+}
+.iconfacebook{
+    color: #3b5998;
+    
+}
+.iconinstagram{
+    color: #b32a2a;
+}
+.iconwhatsapp{
+    color: #33ad66;
+}
+.iconyoutube{
+    color: #e52a23;
+}
+/*pie de paginas*/
+.columna{
+    padding-top: 10%;
+}
+.logo_texto img{
+  text-align: center;  
+  width: 25%;
+}
+.titulo_principal_encabezado{
+    margin: 10%;
+    margin-left: 25%;
+    font-size: 150%;
+    text-align: center;
+    /*border: 5px solid cornsilk;*/
+    width: 150%;
 }

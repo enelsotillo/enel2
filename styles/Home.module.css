@@ -8,7 +8,7 @@
    margin: 0;
    padding: 0%;
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 25% 25%;
   
 }
 .grid section{
@@ -16,6 +16,46 @@
   width: 90%;
   margin-left: 2px;
 }
-.inicio{
+.fuente_inicio_principal{
   font-size: 110%;
+  text-align: justify;
+  text-indent: 5px;
+}
+.fuente3_princiales{
+  text-align: justify;
+}
+.footler{
+  padding-top: -1px;
+}
+.programacion_contenedor_principal{
+  margin: 0%;
+  padding: 0%;
+  display: grid;
+  grid-template-columns: 90%;
+  overflow: hidden;
+  position: relative;
+  right: 5%;
+  left: 5%;
+}
+.programacion_contenedor_principal_Home{
+  margin: 0%;
+  padding: 0%;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  right: 5%;
+  left: 5%;
+  
+}
+.articulos_local{
+  border: 2px solid black;
+  width: 90%;
+  height: 98%;
+  margin-left: 2%;
+}
+.overflow-ellipsis {
+  text-overflow: ellipsis;
+  
 }

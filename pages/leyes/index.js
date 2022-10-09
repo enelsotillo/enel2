@@ -5,7 +5,7 @@ function Leyes() {
     <div>
       <h2>Hola hay Leyes</h2>
         <dev className={style.trabajo_contenedor}>
-            <section className="Trabajo1">
+            <section className={style.trabajo_contenedor_trabajo1}>
                 <p>Leyes del Trabajo</p>
                 <article>
                 <a><img src="/images/lottt.jpg" alt="LOTTT" width={250} height={300}/>
@@ -14,7 +14,7 @@ function Leyes() {
                 </Link></a>
                 </article>
             </section>
-            <section className="Trabajo2">
+            <section className={style.trabajo_contenedor_trabajo1}>
                 <p>Leyes del Trabajo</p>
                 <article>
                 <a><img src="/images/Reglomento_lottt.jpg" alt="LOTTT" width={250} height={300}/>
@@ -23,7 +23,7 @@ function Leyes() {
                 </Link></a>
                 </article>
             </section>
-            <section className="Trabajo3">
+            <section className={style.trabajo_contenedor_trabajo1}>
                 <p>Leyes del Trabajo</p>
                 <article>
                 <a><img src="/images/Reglomento_lottt.jpg" alt="LOTTT" width={250} height={300}/>
@@ -32,7 +32,7 @@ function Leyes() {
                 </Link></a>
                 </article>
             </section>
-            <section className="Trabajo4">
+            <section className={style.trabajo_contenedor_trabajo1}>
                 <p>Leyes del Trabajo</p>
                 <article>
                 <a><img src="/images/ley_procesal.jpg" alt="LOTTT" width={250} height={300}/>
