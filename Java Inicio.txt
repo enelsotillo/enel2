@@ -1,0 +1,3 @@
+Java es un lenguaje de programación, orientado a objetos que fue diseñado específicamente para tener tan pocas dependencias de implementación como fuera posible.Su intención es permitir que los desarrolladores de aplicaciones escriban el programa una vez y lo ejecuten en cualquier dispositivo
+
+Java es uno de los lenguajes de programación más populares del mundo.Es un lenguaje orientado a objetos, potente, versátil y mutiplataforma (corre en cualquier sistema operativo moderno). Además puedes obtener Java y gran cantidad de herramientas para trabajar con él de forma gratuita, siendo la mayor parte de su código libre y abierto.
