@@ -1,0 +1,13 @@
+.trabajo_contenedor{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns:  33% 33% 33%;
+    overflow: hidden;
+    margin-left: 6%;
+    width: 90%;
+    transform: translateY(-45);
+}
+.trabajo_contenedor_trabajo1{
+    border: 2px solid black;
+}

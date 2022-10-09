@@ -1,116 +1,61 @@
-.container {
-  padding: 0 2rem;
-}
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.agrupar { 
+  width: 100%; 
+  margin: 2px auto; 
+  text-align: center; 
+ }
+ .grid{
+   margin: 0;
+   padding: 0%;
+  display: grid;
+  grid-template-columns: 25% 25%;
+  
 }
-
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+.grid section{
+  border: solid 1px black;
+  width: 90%;
+  margin-left: 2px;
 }
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+.fuente_inicio_principal{
+  font-size: 110%;
+  text-align: justify;
+  text-indent: 5px;
 }
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.fuente3_princiales{
+  text-align: justify;
 }
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+.footler{
+  padding-top: -1px;
 }
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+.programacion_contenedor_principal{
+  margin: 0%;
+  padding: 0%;
+  display: grid;
+  grid-template-columns: 90%;
+  overflow: hidden;
+  position: relative;
+  right: 5%;
+  left: 5%;
 }
-
-.title,
-.description {
-  text-align: center;
+.programacion_contenedor_principal_Home{
+  margin: 0%;
+  padding: 0%;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  right: 5%;
+  left: 5%;
+  
 }
-
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+.articulos_local{
+  border: 2px solid black;
+  width: 90%;
+  height: 98%;
+  margin-left: 2%;
 }
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-}
-
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+.overflow-ellipsis {
+  text-overflow: ellipsis;
+  
 }
